@@ -8,9 +8,12 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.text};
-    font: 400 16px Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(26, 29, 41);
+    color: #f9f9f9;
+    font-family: JetBrains, sans-serif;
   }
 
 `;
